@@ -1,0 +1,35 @@
+{
+  "name": "insightly-to-vcard",
+  "version": "1.0.0",
+  "description": "Convert insightly data to vCard 4.0 format",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 30000 test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jksdua/insightly-to-vcard"
+  },
+  "keywords": [
+    "insightly",
+    "crm",
+    "vcf",
+    "vcard"
+  ],
+  "author": "Jaap Karan Singh <jksdua@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jksdua/insightly-to-vcard/issues"
+  },
+  "homepage": "https://github.com/jksdua/insightly-to-vcard",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "request-promise": "^0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "precommit-hook": "^2.0.1"
+  }
+}
